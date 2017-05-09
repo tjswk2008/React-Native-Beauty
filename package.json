@@ -1,0 +1,51 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.0.2",
+    "fbjs": "^0.8.12",
+    "lodash.isequal": "^4.5.0",
+    "react": "15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-addons-shallow-compare": "^15.5.2",
+    "react-dom": "^15.4.2",
+    "react-native": "0.42.0",
+    "react-native-animatable": "^1.1.1",
+    "react-native-button": "^1.8.2",
+    "react-native-camera": "^0.6.0",
+    "react-native-code-push": "^1.17.2-beta",
+    "react-native-experimental-navigation": "^0.26.10",
+    "react-native-fetch-blob": "^0.10.4",
+    "react-native-fs": "^2.1.0-rc.1",
+    "react-native-jq-file-select": "^1.2.1",
+    "react-native-linear-gradient": "^2.0.0",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-scrollable-tab-view": "^0.7.4",
+    "react-native-snap-carousel": "^2.1.1",
+    "react-native-swiper": "^1.5.4",
+    "react-native-tabs": "^1.0.9",
+    "react-native-update": "^4.0.4",
+    "react-native-video": "^1.0.0",
+    "react-native-webview-bridge": "^0.33.0",
+    "react-native-zip-archive": "^1.1.1",
+    "react-static-container": "^1.0.1",
+    "react-timer-mixin": "^0.13.3",
+    "tween-functions": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "eslint": "^3.19.0",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
